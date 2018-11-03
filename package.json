@@ -1,0 +1,19 @@
+{
+  "name": "ai-accounting",
+  "version": "0.0.1",
+  "scripts": {
+    "ng": "$(npm bin)/ng",
+    "start": "ng serve",
+    "build": "ng build --aot",
+    "build:prod": "$(npm bin)/ng build --aot --base-href /accounting/",
+    "watch": "ng build --watch=true --aot",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@aitheon/core-client": "1.0.5"
+  },
+  "devDependencies": {}
+}
